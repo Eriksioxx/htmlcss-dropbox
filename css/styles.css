@@ -173,22 +173,87 @@ header .button-inizia {
 }
 
 .second-page .table {
-    width: 25%;
+    border: 1px solid #d0d0d3;
+    width: 30%;
 }
 
 .second-page .row-table {
-    border: 1px solid #d0d0d3;
+    border-bottom: 1px solid #d0d0d3;
     padding: 10px 15px;
     text-align: center;
 }
-
-.second-page .sub-paragrafo {
-    font-size: 16px;
-    font-weight: 500;
+.second-page .sub-table {
+    text-align: left;
 }
 
+.second-page .table-content {
+    padding: 5px 35px;
+  }
+.second-page .sub-paragrafo {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.second-page .sub-table h2 {
+    margin:20px 0 15px 0;
+}
+
+.second-page .sub-table h4 {
+    margin: 5px 0 10px 0;
+}
+
+.second-page .sottotitolo {
+    color:#637381;
+}
+
+.second-page .first-space {
+    margin: 30px 0 0 0;
+}
+
+.second-page .second-span {
+    width: 92%;
+    font-size: 14px;
+}
+
+.second-page .second-row {
+    padding-bottom: 25px;
+}
+
+.second-page .button-2 {
+    display: inline-block;
+    background-color: #0061ff;
+    text-align: center;
+    line-height: 30px;
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    margin: 30px 0 30px 0;
+    padding: 5px 10px;
+}
+
+.second-page .linea {
+    color:#d0d0d3;
+    margin: 15px 0;
+    font-weight: 200;
+}
+
+.second-page .table ul {
+    list-style-type: none;
+    }
+
+
+.second-page.table li::before {
+    /* content: "\f07b";
+    font-family: FontAwesome; */
+    }
 /* / second page */
 
+/* Interactives */
+
+.button-inizia:hover {
+    background-color: black;
+    color: lightblue;
+}
 
 /* Utilities */
 
@@ -227,9 +292,6 @@ header .button-inizia {
 .w-90 {
     width: 90%;
 }
-/* Interactives */
-
-.button-inizia:hover {
-    background-color: black;
-    color: lightblue;
+.w-100 {
+    width: 100%;
 }

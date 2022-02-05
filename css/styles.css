@@ -199,7 +199,7 @@ header .button-inizia {
 }
 
 .second-page .sub-table h4 {
-    margin: 5px 0 10px 0;
+    margin: 35px 0 10px 0;
 }
 
 .second-page .sottotitolo {
@@ -211,8 +211,9 @@ header .button-inizia {
 }
 
 .second-page .second-span {
-    width: 92%;
+    width: 88%;
     font-size: 14px;
+    position: relative;   /*position icona spunta blu*/
 }
 
 .second-page .second-row {
@@ -239,13 +240,21 @@ header .button-inizia {
 
 .second-page .table ul {
     list-style-type: none;
+    list-style-position: outside;
     }
 
+.second-page .table li {
+    margin: 20px 0;
+}
 
-.second-page.table li::before {
-    /* content: "\f07b";
-    font-family: FontAwesome; */
-    }
+.second-page li::before {
+    content: "\f00c";
+    font-family: FontAwesome;
+    color: #0061ff;
+
+    position: absolute; /*position icona spunta blu con second-span*/
+    left: -8%;
+}
 /* / second page */
 
 /* Interactives */

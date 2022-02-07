@@ -25,7 +25,7 @@ body {
 }
   
 main {
-padding-top: 25px;
+    padding-top: 25px;
 }
 
 /* container */
@@ -273,7 +273,7 @@ header .button-inizia {
     width: auto;
     margin: 40px 0 0 0;
     border: 1px solid #d0d0d3;
-    height: 210px;
+    height: 220px;
     position: relative;
 }
 
@@ -298,6 +298,49 @@ header .button-inizia {
     right: 3%;
 }
 /* / second page */
+
+/* third page */
+.third-page {
+    background-color: #ffffff;
+    height: 80vh;
+}
+
+.third-page .image2 {
+    height: 500px;
+    margin: 130px 0;
+}
+
+.third-page .article-partner {
+    width: 42%;
+    margin: 160px 0;
+}
+
+.third-page .title-partner {
+    font-size: 28px;
+}
+
+.third-page p {
+    font-size: 17px;
+    font-weight: 500;
+    text-align: left;
+    margin: 30px 0;
+    line-height: 28px;
+    letter-spacing: -0.2px;
+}
+
+.third-page .button-4 {
+    display: inline-block;
+    border: 1px solid black;
+    line-height: 30px;
+    text-decoration: none;
+    color: black;
+    margin: 5px 0;
+    padding: 5px 20px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+/* / third page */
 
 /* Interactives */
 

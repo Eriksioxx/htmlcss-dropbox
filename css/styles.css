@@ -342,6 +342,22 @@ header .button-inizia {
 
 /* / third page */
 
+/* fourth page */
+.fourth-page {
+    background-color: #ffffff;
+    height: 80vh;
+
+    border: 2px solid red;
+}
+
+.fourth-page .title-items {
+    font-size: 40px;
+}
+
+/* / fourth page */
+
+
+
 /* Interactives */
 
 .button-inizia:hover {

@@ -380,8 +380,6 @@ header .button-inizia {
 /* fifth page */
 .fifth-page {
     background-color: #ffffff;
-
-    height: 100vh;
 }
 
 .fifth-page .title-items {
@@ -389,45 +387,115 @@ header .button-inizia {
     margin: 120px 0 30px 0 ;
 }
 
-.fifth-page a {
+.fifth-page a,
+.fifth-page p {
     font-size: 17px;
     font-weight: 500;
+}
+
+.images > div {
+    height: 240px;
+    width: 50%;
+    position: relative;
+}
+
+.fifth-page .image-1 {
+    background-color: #a2d39b;
+    /* border: 10px solid #d0e9cd; */
+}
+.fifth-page .image-2 {
+    background-color: #61082b;
+}
+.fifth-page .image-3 {
+    background-color: #0093ce;
+}
+.fifth-page .image-4 {
+    background-color: #ff1c1c;
+}
+.fifth-page .image-5 {
+    background-color: #d5001f;
+}
+.fifth-page .image-6 {
+    background-color: #b4d0e7;
+}
+.fifth-page .image-7 {
+    background-color: #0d2481;
+}
+.fifth-page .image-8 {
+    background-color: #ffd830;
 }
 
 .fifth-page .sponsors {
     margin: 50px 0;
 }
 
-.fifth-page .image-sx {
-}
+.fifth-page .sponsor-image {
+    color: white;
+    filter: invert(100%);
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
 
 .fifth-page .images-central {
-    height: 500px;
+    height: 480px;
     background-color: #f5f5f5;
 }
 
 .fifth-page .central-logo {
     height: 45px;
-    margin: 30px;
-    margin-bottom: 10px;
-    
-}
-
-.fifth-page .image-dx {
-}
-
-.image-sx > img {
-    height: 50px;
+    margin: 45px 0 10px 45px;
 }
 
 .fifth-page .linea {
     color:#d0d0d3;
-    margin: 0px 0 35px 30px;
+    margin: 0px 0 35px 45px;
     font-weight: 200;
+}
+
+.fifth-page p {
+    margin: 50px 45px;
 }
 /* / fifth page */
 
+/*sixth page */
+.sixth-page {
+    background-color: #b4d0e7;
 
+    position: relative;
+}
+
+.sixth-page .title {
+    font-size: 45px;
+    padding: 120px 0;
+    display: inline-block;
+    color: #61082b;
+}
+
+.sixth-page .button-5 {
+    display: inline-block;
+    background-color: #ffffff;
+    color: black;
+    text-align: center;
+    line-height: 30px;
+    text-decoration: none;
+    width: 20%;
+    margin: 30px 0 30px 0;
+    padding: 5px 10px;
+    font-size: 18px;
+
+    position: absolute;
+    top: 35%;
+    right: 5%;
+    transform: translate(-50%, -50%);
+    }
+
+.sixth-page .button-position {
+    vertical-align: middle;
+}
+/* / sixth page */
 
 /* Interactives */
 

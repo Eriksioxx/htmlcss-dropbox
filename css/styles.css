@@ -340,9 +340,6 @@ header .button-inizia {
 /* fourth page */
 .fourth-page {
     background-color: #ffffff;
-    height: 80vh;
-
-    border: 2px solid red;
 }
 
 .fourth-page .title-items {
@@ -350,7 +347,7 @@ header .button-inizia {
 }
 
 .fourth-page .banner1 {
-    margin: 40px 0;
+    margin: 45px 0 30px 0;
 }
 
 .fourth-page .title-partner {
@@ -366,11 +363,13 @@ header .button-inizia {
     letter-spacing: -0.2px;
 }
 
-
 .fourth-page .banner-center {
-    margin: 55px 0;
+    margin: 45px 55px 30px 55px;
 }
 
+.fourth-page .banner2 {
+    margin: 45px 0 30px 0;
+}
 
 /* / fourth page */
 

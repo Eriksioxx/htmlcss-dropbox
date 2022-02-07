@@ -649,7 +649,6 @@ header a:hover {
     color: lightblue;
 }
 
-footer h3:hover,
 footer li:hover {
     text-decoration: underline;
 }

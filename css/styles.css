@@ -373,6 +373,25 @@ header .button-inizia {
 
 /* / fourth page */
 
+/* fifth page */
+.fifth-page {
+    background-color: #ffffff;
+
+    height: 100vh;
+}
+
+.fifth-page .title-items {
+    font-size: 40px;
+    margin: 120px 0 30px 0 ;
+}
+
+.fifth-page a {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+/* / fifth page */
+
 
 
 /* Interactives */

@@ -89,10 +89,7 @@ header .button-inizia {
 /* first page */
 .first-page {
     background-color: #b4d0e7;
-    height: 80vh;
-
     position: relative;
-
 }
 
 .first-page .title1 {
@@ -137,14 +134,13 @@ header .button-inizia {
 
 .first-page .icona {
     font-size: 40px;
-    margin: 30px 0;
+    margin: 30px 0 140px 0;
 }
 /* / first page */
 
 /* second page */
 .second-page {
     background-color: #ffffff;
-    height: 150vh;
 
     position: relative;
 }
@@ -178,7 +174,7 @@ header .button-inizia {
 .second-page .table {
     border: 1px solid #d0d0d3;
     width: 30%;
-    height: 1000px;
+    min-height: 1000px;
 }
 
 .second-page .table-center {
@@ -302,7 +298,6 @@ header .button-inizia {
 /* third page */
 .third-page {
     background-color: #ffffff;
-    height: 80vh;
 }
 
 .third-page .image2 {
@@ -353,6 +348,29 @@ header .button-inizia {
 .fourth-page .title-items {
     font-size: 40px;
 }
+
+.fourth-page .banner1 {
+    margin: 40px 0;
+}
+
+.fourth-page .title-partner {
+    font-size: 28px;
+}
+
+.fourth-page p {
+    font-size: 17px;
+    font-weight: 500;
+    text-align: left;
+    margin: 20px 0;
+    line-height: 23px;
+    letter-spacing: -0.2px;
+}
+
+
+.fourth-page .banner-center {
+    margin: 55px 0;
+}
+
 
 /* / fourth page */
 

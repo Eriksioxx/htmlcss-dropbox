@@ -14,6 +14,7 @@ body {
     clear: both;
 }
 
+/* container */
 .container1 {
     max-width: 1300px;
     margin: 0 auto;
@@ -38,10 +39,8 @@ main {
     padding-top: 25px;
 }
 
-/* container */
 
 /* header */
-
 header {
 }
 
@@ -107,7 +106,7 @@ header .button-inizia {
     padding-top: 80px;
 }
 
-.first-page .image1 {
+.first-page .image {
     position: absolute;
     height: 500px;
     top: 77%;
@@ -126,7 +125,7 @@ header .button-inizia {
     text-align: left;
 }
 
-.first-page .button-1 {
+.first-page .button {
     display: inline-block;
     background-color: #0061ff;
     text-align: center;
@@ -155,7 +154,7 @@ header .button-inizia {
     position: relative;
 }
 
-.second-page .title2 {
+.second-page .title {
     font-size: 40px;
     margin: 170px 0 50px 0;
     text-align: left;
@@ -166,9 +165,6 @@ header .button-inizia {
     height: 50px;
 }
 
-.second-page .second-radio {
-    margin-left: 15px;
-}
 .second-page .second-radio {
     margin-left: 15px;
 }
@@ -235,7 +231,7 @@ header .button-inizia {
     padding-bottom: 25px;
 }
 
-.second-page .button-2 {
+.second-page .button {
     display: inline-block;
     background-color: #0061ff;
     text-align: center;
@@ -288,7 +284,7 @@ header .button-inizia {
     margin: 25px 0;
 }
 
-.second-page .button-3 {
+.second-page .button-2 {
     display: inline-block;
     background-color: #0061ff;
     text-align: center;
@@ -310,7 +306,7 @@ header .button-inizia {
     background-color: #ffffff;
 }
 
-.third-page .image2 {
+.third-page .image {
     height: 500px;
     margin: 130px 0;
 }
@@ -333,7 +329,7 @@ header .button-inizia {
     letter-spacing: -0.2px;
 }
 
-.third-page .button-4 {
+.third-page .button {
     display: inline-block;
     border: 1px solid black;
     line-height: 30px;
@@ -480,7 +476,7 @@ header .button-inizia {
     color: #61082b;
 }
 
-.sixth-page .button-5 {
+.sixth-page .button {
     display: inline-block;
     background-color: #ffffff;
     color: black;
@@ -607,9 +603,55 @@ footer .final-text {
 
 /* Interactives */
 
-.button-inizia:hover {
+header .button-inizia:hover {
     background-color: black;
     color: lightblue;
+}
+
+header a:hover {
+    text-decoration:underline;
+}
+
+.first-page .button:hover {
+    background-color: black;
+    color: lightblue;
+}
+
+.second-page .button:hover {
+    background-color: black;
+    color: lightblue;
+}
+
+.second-page .button-2:hover {
+    background-color: black;
+    color: lightblue;
+}
+
+.second-page a:hover {
+    color: red;
+}
+
+.third-page .button:hover {
+    background-color: lightblue;
+    color: white;
+}
+
+.fifth-page a:hover {
+    color: red;
+}
+
+.fifth-page .images > div:hover {
+    border: 10px solid rgba(0, 0, 0, 0.3);
+}
+
+.sixth-page .button:hover {
+    background-color: black;
+    color: lightblue;
+}
+
+footer h3:hover,
+footer li:hover {
+    text-decoration: underline;
 }
 
 /* Utilities */
